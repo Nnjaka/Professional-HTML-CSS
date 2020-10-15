@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>BRAND</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/243e5aa5c5.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <header class="header center">
         <div class="header_left">
@@ -90,6 +87,7 @@
         </div>
     </header>
     <nav class="nav center">
+        <ul class="menu">
             <li class="menu_list"><a href="index.html" class="menu_link">Home </a>
                 <div class="drop">
                     <div class="drop_col">
@@ -407,173 +405,106 @@
             </li>
         </ul>
     </nav>
-    <div class="promo center">
-        <div class="promo_content">
-            <h1 class="header_brand">THE BRAND</h1>
-            <h2 class="header_luxerious">OF LUXERIOUS <span class="color-select header_luxerious">FASHION</span></h2>
+    <div class="arrivals center">
+        <div class="arrivals_left">
+            <h2 class="arrivals_text">New Arrivals </h2>
         </div>
+        <nav class="arrivals_right">
+            <ul class="breadcrumb">
+                <li><a href="index.html" class="breadcrumb_link">Home</a></li>
+                <li><a href="#" class="breadcrumb_link">Men</a></li>
+                <li><a href="#" class="breadcrumb_link breadcrumb_link_activ">New Arrivals</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    </div>
-    <div class="stock center">
-        <div class="stock_block1">
-            <div class="block1_product1 stock_product">
-                <div class="stock_text">
-                    <h3 class="stock_text_h3">hot deal</h3>
-                    <h2 class="stock_text_h2">for men</h2>
-                </div>
-            </div>
-            <div class="block1_product2 stock_product">
-                <div class="stock_text">
-                    <h3 class="stock_text_h3">LUXIROUS & trendy</h3>
-                    <h2 class="stock_text_h2">ACCESORIES</h2>
-                </div>
-            </div>
-        </div>
-        <div class="stock_block2">
-            <div class="block2_product1 stock_product">
-                <div class="stock_text">
-                    <h3 class="stock_text_h3">30% offer</h3>
-                    <h2 class="stock_text_h2">women</h2>
-                </div>
-            </div>
-            <div class="block2_product2 stock_product">
-                <div class="stock_text">
-                    <h3 class="stock_text_h3">new arrivals</h3>
-                    <h2 class="stock_text_h2">FOR kids</h2>
-                </div>
-            </div>
-        </div>
+    <table class="cart_table conteiner">
+<tr class="cart_table_header">
+    <th class="table_header" colspan="2">Product Details</th>
+    <th class="table_header">unite Price</th>
+    <th class="table_header">Quantity</th>
+    <th class="table_header">shipping</th>
+    <th class="table_header">Subtotal</th>
+    <th class="table_header">ACTION</th>
+</tr>
+<tr class="cart_table_row">
+    <td class="table_border table_img"><img src="img/table_pr1.png" alt="product_img"></td>
+    <td class="table_border table_pr_name">
+        <a href="#"><h6 class="table_pr_name_head">Mango  People  T-shirt</h6></a>
+        <p class="table_pr_text">Color: <span class="table_pr_text_value">Red </span></p>
+        <p class="table_pr_text">Size:  <span class="table_pr_text_value">Xll</span></p>
+    </td>
+    <td class="table_border table_pr_price">$150</td>
+    <td class="table_border table_pr_quantity">
+        <input class="table_pr_input" type="number" value="2" size="3">
+    </td>
+    <td class="table_border table_pr_shipping">FREE</td>
+    <td class="table_border table_pr_subtotal">$300</td>
+    <td class="table_border table_pr_action"><i class="fas fa-times-circle"></i></td>
+</tr>
+<tr class="cart_table_row">
+    <td class="table_border table_img"><img src="img/table_pr2.png" alt="product_img"></td>
+    <td class="table_border table_pr_name">
+        <a href="#"><h6 class="table_pr_name_head">Mango  People  T-shirt</h6></a>
+        <p class="table_pr_text">Color: <span class="table_pr_text_value">Red </span></p>
+        <p class="table_pr_text">Size:  <span class="table_pr_text_value">Xll</span></p>
+    </td>
+    <td class="table_border table_pr_price">$150</td>
+    <td class="table_border table_pr_quantity">
+        <input class="table_pr_input" type="number" value="2" size="3">
+    </td>
+    <td class="table_border table_pr_shipping">FREE</td>
+    <td class="table_border table_pr_subtotal">$300</td>
+    <td class="table_border table_pr_action"><i class="fas fa-times-circle"></i></td>
+</tr>
+<tr class="cart_table_row">
+    <td class="table_border table_img"><img src="img/table_pr3.png" alt="product_img"></td>
+    <td class="table_border table_pr_name">
+        <a href="#"><h6 class="table_pr_name_head">Mango  People  T-shirt</h6></a>
+        <p class="table_pr_text">Color: <span class="table_pr_text_value">Red </span></p>
+        <p class="table_pr_text">Size:  <span class="table_pr_text_value">Xll</span></p>
+    </td>
+    <td class="table_border table_pr_price">$150</td>
+    <td class="table_border table_pr_quantity">
+        <input class="table_pr_input" type="number" value="2" size="3">
+    </td>
+    <td class="table_border table_pr_shipping">FREE</td>
+    <td class="table_border table_pr_subtotal">$300</td>
+    <td class="table_border table_pr_action"><i class="fas fa-times-circle"></i></td>
+</tr>
+    </table>
+    <form class="cart_buttons conteiner" action="#">
+<input class="cart_button" type="reset" value="cLEAR SHOPPING CART">
+<input class="cart_button" type="submit" value="cONTINUE sHOPPING">
+    </form>
+    <div class="order conteiner">
+<div class="adress">
+    <h5 class="adress_text">Shipping Adress</h5>
+    <details>
+        <summary class="adress_country">Bangladesh</summary>
+    </details>
+    <input class="adress_state" type="text" value="State">
+    <input class="adress_postcode" type="text" value="Postcode / Zip">
+    <button class="adress_button"><a href="#" class="button_get">get a quote</a></button>
+</div>
+<div class="coupon">
+    <h5 class="adress_text">coupon  discount</h5>
+    <p class="coupon_text">Enter your coupon code if you have one</p>
+    <input class="adress_state" type="text" value="State">
+    <button class="coupon_button"><a href="#" class="button_apply">Apply coupon</a></button>
+</div>
+<div class="checkout">
+<p class="total">Sub total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$900</p>
+<p class="grand_total">GRAND TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="grand_total_price">$900</span></p>
+<div class="checkout_line"></div>
+<button class="checkout_button"><a href="checkout.html" class="checkout_button_proceed">proceed to checkout</a></button>
 
-    </div>
-    <section class="galery center">
-        <h3 class="galery_text1">Fetured Items</h3>
-        <h5 class="galery_text2">Shop for items based on what we featured in this week</h5>
-        <div class="galery_products">
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr1.png" class="galery_product_img alt="img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr2.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr3.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr4.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr5.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr6.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr7.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr8.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-        </div>
-        <a href="catalog.html" class="galery_button">Browse All Product</a>
-    </section>
-    <div class="advantages center">
-        <div class="advantages_left">
-            <div class="advantages_left_content">
-                <p class="advantages_left_text1">30% <span class="special_word">OFFER</span></p><br>
-                <p class="advantages_left_text2">FOR WOMEN</p>
-            </div>
-        </div>
-        <div class="advantages_right">
-            <article class="advantage">
-                <img class="advantage_img" src="img/car.png" alt="car">
-                <div class="advantage_text">
-                    <h4 class="advantage_heading">Free Delivery</h4>
-                    <p class="advantage_right_text">Worldwide delivery on all. Authorit tively morph next-generation
-                        innov tion with extensive models.</p>
-                </div>
-            </article>
-            <article class="advantage">
-                <img class="advantage_img" src="img/percent.png" alt="percent">
-                <div class="advantage_text">
-                    <h4 class="advantage_heading">Sales & discounts</h4>
-                    <p class="advantage_right_text">Worldwide delivery on all. Authorit tively morph next-generation
-                        innov tion with extensive models.</p>
-                </div>
-            </article>
-            <article class="advantage">
-                <img class="advantage_img" src="img/crown.png" alt="crown">
-                <div class="advantage_text">
-                    <h4 class="advantage_heading">Quality assurance</h4>
-                    <p class="advantage_right_text">Worldwide delivery on all. Authorit tively morph next-generation
-                        innov tion with extensive models.</p>
-                </div>
-            </article>
-        </div>
-    </div>
+</div>
+</div>
+
+
+
+    
     <footer>
         <section class="subscribe center">
             <div class="subscribe_left">
@@ -606,7 +537,6 @@
             <section class="footer_top center">
                 <div class="footer_top_left">
                     <a href="index.html" class="logo"><img class="logo_img" src="img/logo.png" alt="logo">BRAN<span
-
                             class="color-select">D</span></a>
                     <p class="footer_top_left_text">Objectively transition extensive data rather than cross functional
                         solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits.
@@ -670,6 +600,10 @@
             </div>
         </div>
     </footer>
-</body>
 
+
+
+    
+    
+</body>
 </html>

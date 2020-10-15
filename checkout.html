@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>BRAND</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/243e5aa5c5.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <header class="header center">
         <div class="header_left">
@@ -90,6 +87,7 @@
         </div>
     </header>
     <nav class="nav center">
+        <ul class="menu">
             <li class="menu_list"><a href="index.html" class="menu_link">Home </a>
                 <div class="drop">
                     <div class="drop_col">
@@ -407,173 +405,61 @@
             </li>
         </ul>
     </nav>
-    <div class="promo center">
-        <div class="promo_content">
-            <h1 class="header_brand">THE BRAND</h1>
-            <h2 class="header_luxerious">OF LUXERIOUS <span class="color-select header_luxerious">FASHION</span></h2>
+    <div class="arrivals center">
+        <div class="arrivals_left">
+            <h2 class="arrivals_text">New Arrivals </h2>
         </div>
-
+        <nav class="arrivals_right">
+            <ul class="breadcrumb">
+                <li><a href="index.html" class="breadcrumb_link">Home</a></li>
+                <li><a href="#" class="breadcrumb_link">Men</a></li>
+                <li><a href="#" class="breadcrumb_link breadcrumb_link_activ">New Arrivals</a></li>
+            </ul>
+        </nav>
     </div>
-    <div class="stock center">
-        <div class="stock_block1">
-            <div class="block1_product1 stock_product">
-                <div class="stock_text">
-                    <h3 class="stock_text_h3">hot deal</h3>
-                    <h2 class="stock_text_h2">for men</h2>
-                </div>
-            </div>
-            <div class="block1_product2 stock_product">
-                <div class="stock_text">
-                    <h3 class="stock_text_h3">LUXIROUS & trendy</h3>
-                    <h2 class="stock_text_h2">ACCESORIES</h2>
-                </div>
-            </div>
+<div class="check_blok1 center">
+    <h3 class="check_adress">01.   Shipping Adress</h3>
+    <div class="check_adress_block">
+        <div class="check_blok1_left">
+            <p class="check_check">Check as a guest or register</p>
+            <p class="check_register">Register with us for future convenience</p>
+            <label><input class="check_radio" type="radio" name="register">&nbsp;checkout as guest
+            </label><br>
+            <label><input class="check_radio" type="radio" name="register" checked>&nbsp;register</label>
+            <p class="check_register2">register and save time!</p>
+            <p class="check_register">Register with us for future convenience</p>
+            <a href="#"><p class="check_fast"><i class="fas fa-angle-double-right"></i>Fast and easy checkout</p></a>
+            <a href="#"><p class="check_easy"><i class="fas fa-angle-double-right"></i>Easy access to your order history and status</p></a>
+            <button class="check_button_cont">Continue</button>
         </div>
-        <div class="stock_block2">
-            <div class="block2_product1 stock_product">
-                <div class="stock_text">
-                    <h3 class="stock_text_h3">30% offer</h3>
-                    <h2 class="stock_text_h2">women</h2>
-                </div>
+        <div class="check_blok1_right">
+            <p class="check_already">Already registed?</p>
+            <p class="check_please">Please log in below</p>
+            <label class="check_email_text" for="email">EMAIL ADDRESS <sup><i class="fas fa-asterisk"></i></sup></label><br>
+            <input class="check_email" type="email" id="email"><br>
+            <label class="check_email_text" for="password">PASSWORD <sup><i class="fas fa-asterisk"></i></sup></label><br>
+            <input class="check_email" type="password" id="password">
+            <p class="check_required"><sup><i class="fas fa-asterisk"></i></sup> Required Fileds</p>
+            <div class="check_button_block">
+                <button class="check_button_cont">Log in</button>
+                <a href="#"><p class="check_forgot">Forgot Password ?</p></a>
             </div>
-            <div class="block2_product2 stock_product">
-                <div class="stock_text">
-                    <h3 class="stock_text_h3">new arrivals</h3>
-                    <h2 class="stock_text_h2">FOR kids</h2>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <section class="galery center">
-        <h3 class="galery_text1">Fetured Items</h3>
-        <h5 class="galery_text2">Shop for items based on what we featured in this week</h5>
-        <div class="galery_products">
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr1.png" class="galery_product_img alt="img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr2.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr3.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr4.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr5.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr6.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr7.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-            <div class="galery_product">
-                <a href="#" class="galery_link">
-                    <img src="img/galery_pr8.png" class="galery_product_img alt=" img_photo">
-                </a>
-                <div class="product_info">
-                    <a href="#" class="galery_product_name">Mango People T-shirt</a>
-                    <p class="galery_product_price">$52.00 <img class="product_stars" src="img/stars.png" alt="stars">
-                    </p>
-                </div>
-                <a class="galery_product_button" href="#"><img src="img/cart_white.png" alt="cart">Add to Cart</a>
-            </div>
-        </div>
-        <a href="catalog.html" class="galery_button">Browse All Product</a>
-    </section>
-    <div class="advantages center">
-        <div class="advantages_left">
-            <div class="advantages_left_content">
-                <p class="advantages_left_text1">30% <span class="special_word">OFFER</span></p><br>
-                <p class="advantages_left_text2">FOR WOMEN</p>
-            </div>
-        </div>
-        <div class="advantages_right">
-            <article class="advantage">
-                <img class="advantage_img" src="img/car.png" alt="car">
-                <div class="advantage_text">
-                    <h4 class="advantage_heading">Free Delivery</h4>
-                    <p class="advantage_right_text">Worldwide delivery on all. Authorit tively morph next-generation
-                        innov tion with extensive models.</p>
-                </div>
-            </article>
-            <article class="advantage">
-                <img class="advantage_img" src="img/percent.png" alt="percent">
-                <div class="advantage_text">
-                    <h4 class="advantage_heading">Sales & discounts</h4>
-                    <p class="advantage_right_text">Worldwide delivery on all. Authorit tively morph next-generation
-                        innov tion with extensive models.</p>
-                </div>
-            </article>
-            <article class="advantage">
-                <img class="advantage_img" src="img/crown.png" alt="crown">
-                <div class="advantage_text">
-                    <h4 class="advantage_heading">Quality assurance</h4>
-                    <p class="advantage_right_text">Worldwide delivery on all. Authorit tively morph next-generation
-                        innov tion with extensive models.</p>
-                </div>
-            </article>
         </div>
     </div>
+</div>
+<div class="check_blok2 center">
+    <div class="check_line center"></div>
+    <h3 class="check_adress check_block2_text">02. BILLING INFORMATION </h3>
+    <div class="check_line center"></div>
+    <h3 class="check_adress check_block2_text">03. SHIPPING INFORMATION </h3>
+    <div class="check_line center"></div>
+    <h3 class="check_adress check_block2_text">04. SHIPPING METHOD </h3>
+    <div class="check_line center"></div>
+    <h3 class="check_adress check_block2_text">05. PAYMENT METHOD </h3>
+    <div class="check_line center"></div>
+    <h3 class="check_adress check_block2_text">06. ORDER REVIEW</h3>
+    <div class="check_line center"></div>
+</div>    
     <footer>
         <section class="subscribe center">
             <div class="subscribe_left">
@@ -606,7 +492,6 @@
             <section class="footer_top center">
                 <div class="footer_top_left">
                     <a href="index.html" class="logo"><img class="logo_img" src="img/logo.png" alt="logo">BRAN<span
-
                             class="color-select">D</span></a>
                     <p class="footer_top_left_text">Objectively transition extensive data rather than cross functional
                         solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits.
@@ -670,6 +555,10 @@
             </div>
         </div>
     </footer>
-</body>
 
+
+
+    
+    
+</body>
 </html>
